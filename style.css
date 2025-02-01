@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+     background-color: #F5F5F5;
+     font-family: "Fira Sans", serif;
+}
+h1,h2,h3,h4,h5,h6{
+     font-family: "Fira Sans", serif;
+}
+
+.head {}
+
+.nbar {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     gap: 350px;
+     width: 1900px;
+     height: 100px;
+}
+
+.head-title {
+     font-size: 32px;
+     font-weight: bold;
+}
+
+.top-buton {
+     color: #006A50;
+     border: 2px solid #006A50;
+     width: 116px;
+     height: 52px;
+     padding: 10px 10px;
+     border-radius: 8px;
+}
+
+/* nav bar */
+
+.head-sect {
+     background-color: #C6E4D6;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 1280px;
+     height: 560px;
+     margin-right: 300px;
+     margin-left: 300px;
+     border-radius: 10px;
+}
+
+.topest {
+     width: 622px;
+     height: 326px;
+}
+
+.head-btn {
+     background-color: #006A50;
+     color: #FFFFFF;
+     width: 270px;
+     height: 56px;
+     border: none;
+     border-radius: 10px;
+}
+
+.image {
+     width: 474px;
+     height: 400px;
+}
+
+.head-tittle {
+     font-size: 56px;
+     font-weight: bold;
+     color: rgba(14, 14, 14, 1);
+}
+
+.head-p {
+     color: rgba(14, 14, 14, 0.5);
+}
+
+/* about header section */
+main {
+     margin-left: 300px;
+     margin-right: 300px;
+     margin-top: 80px;
+}
+
+.futer {
+     display: flex;
+     justify-content: space-around;
+     gap: 30px;
+}
+
+.vision1 {
+     background-color: #FFFFFF;
+     padding: 24px; border-radius: 10px;
+}
+
+.vision-head {
+     font-size: 40px;
+     font-weight: bold;
+     margin-bottom: 32px;
+     font-family: "Fira Sans", serif;
+}
+
+.vision-about {
+     font-size: 24px;
+     color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-image {
+     width: 64px;
+     height: 64px;
+     margin-bottom: 4px;
+}
+
+.vision-title1 {
+     font-size: 20px;
+     color: rgba(14, 14, 14, 0.8);
+}
+
+/* card box */
+
+.piller-head {
+     font-size: 40px;
+     font-weight: bold;
+     margin-top: 80px;
+     margin-bottom: 24px;
+}
+
+.before-pile {
+     font-size: 16px;
+     color: rgba(14, 14, 14, 0.7);
+}
+
+.pillar-of {
+     display: flex;
+     justify-content: space-around;
+     gap: 24px;
+     overflow: hidden;
+}
+
+.piller1 {
+     background-color: rgba(84, 144, 245, 0.2);
+     padding: 32px; border-radius: 10px;
+}
+
+.piller2 {
+     background-color: #C6E4D6;
+     padding: 32px; border-radius: 10px;
+}
+
+.piller3 {
+     background-color: #F7EBCF;
+     padding: 32px; border-radius: 10px;
+}
+
+.pillar-image {
+     width: 64px;
+     height: 64px;
+     margin-bottom: 2px;
+}
+
+.pillar-title {
+     font-size: 20px;
+     font-weight: bold;
+     color: rgba(14, 14, 14, 0.8);
+}
+
+.about-pile {
+     font-size: 16px;
+     color: rgba(14, 14, 14, 0.7);
+}
+
+.pile1 {
+     background-color: #5490F5;
+     color: #FFFFFF;
+     width: 122px;
+     height: 41px;
+     border: none;
+     border-radius: 5px;
+}
+
+.pile2 {
+     background-color: #09A15C;
+     color: #FFFFFF;
+     width: 122px;
+     height: 42px;
+     border: none;
+     border-radius: 5px;
+}
+
+.pile3 {
+     background-color: #FFC239;
+     color: #FFFFFF;
+     width: 122px;
+     height: 41px;
+     border: none;
+     border-radius: 5px;
+}
+
+/* card box 2 */
+.adviser {
+
+     background-color: #FFFFFF;
+     width: 1245px;
+     height: 256px;
+     padding: 48px 24px;
+     margin-top: 32px;
+     border-radius: 10px;
+}
+
+.advise-about {
+     font-size: 18px;
+}
+
+.advise-title {
+     font-size: 24px;
+     font-weight: 600;
+     margin-bottom: 12px;
+}
+
+/*  */
+.recent-head { margin-top:80px ;
+
+     font-size: 50px;
+     font-weight: bold;
+     color: rgba(14, 14, 14, 1);
+}
+
+.recent-p {
+     margin-top: 24px;
+     font-size: 16px;
+     font-weight: 400;
+     color: rgba(14, 14, 14, 0.7);
+}
+
+.recent {
+     display: flex;
+     justify-content: space-around;
+     background-color: #FFFFFF;
+     padding: 48px;
+     gap: 32px; 
+     margin-top: 32px;
+     border-radius: 10px;
+}
+
+.recent-div {
+     width: 744px;
+     height: 290px;
+}
+
+.earth { width: 408px; height: 306px;
+     border-radius: 15px;
+}
+
+.recent-title {
+     font-size: 40px;
+     font-weight: bold;
+margin-bottom: 12px;
+}
+
+.recent-img {margin-bottom: 12px;
+}
+
+.recent-about {
+     font-size: 16px;
+     color: rgba(14, 14, 14, 0.7);
+}
+
+.recent-btn {
+     
+     background-color: #006A50;
+     color: #FFFFFF;
+     font-size: 18px;
+     font-weight: 600;
+     border: none;
+     border-radius: 5px;
+     padding: 13px 26px;
+     margin-top: 32px;
+}
+
+.recent-2 {
+     display: flex;
+     justify-content: space-around;
+     
+     background-color: #FFFFFF;
+     gap: 32px;
+     padding: 48px;
+     margin-top: 32px;
+     border-radius: 10px;
+}
+
+/* New section done */
+.donat-head-dev {
+     text-align: center;
+     margin-top: 80px;
+}
+
+.donate-heade {
+     font-size: 50px;
+     font-weight: bold;
+}
+
+.donate-abou {
+     color: rgba(14, 14, 14, 0.7);
+     margin-top: 24px;
+}
+
+.donate {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+     margin-top: 32px;
+}
+
+.don1 {
+     background-color: #FFFFFF;
+     color: rgba(14, 14, 14, 0.8);
+     font-size: 40px;
+     font-weight: 900;
+     width: 240px;
+     height: 128px;
+     padding: 17px;
+     
+     border: none;
+     border-radius: 10px;
+     text-align: center;
+}
+
+.don2 {
+     background-color: #C6E4D6;
+     color: rgba(14, 14, 14, 0.8);
+     font-size: 40px;
+     font-weight: 900;
+     width: 252px;
+     height: 128px;
+     padding: 17px;
+
+     border: none;
+     border-radius: 10px;
+     
+}
+.don3{
+     background-color: #FFFFFF;
+     color: rgba(14, 14, 14, 0.8);
+     font-size: 40px;
+     font-weight: 900;
+     width: 243px;
+     height: 128px;
+     padding: 17px;
+     
+     border: none;
+     border-radius: 10px;
+     text-align: center;}
+     .don4{
+          background-color: #FFFFFF;
+          color: rgba(14, 14, 14, 0.8);
+          font-size: 40px;
+          font-weight: 900;
+          width: 264px;
+          height: 128px;
+          padding: 17px;
+     
+          border: none;
+          border-radius: 10px;
+          text-align: center;}
+
+input.close {
+     width: 1032px;
+     height: 64px;
+     background-color: #FFFFFF;
+     margin-top: 32px;
+     border: none;
+     border-radius: 10px;
+     text-align: center;
+}
+
+.last-btn {
+     text-align: center;
+}
+
+.btn-last {
+     background-color: #006A50;
+     color: #FFFFFF;
+     padding: 17px 34px;
+     margin-top: 32px;
+     border: none;
+     border-radius: 8px;
+}
+
+/* donate option  */
+.news-lter {
+     background-color: #C6E4D6;
+
+     border: none;
+     border-radius: 10px;
+     padding: 80px 265px;
+     margin-top: 80px;
+     margin-bottom: 80px;
+     text-align: center;
+}
+
+.close2 {
+     background-color: #006A50;
+     color: #FFFFFF;
+     height: 56px;
+     padding: 17px 34px;
+     border: none;
+     border-radius: 5px;
+     margin-top: 24px;
+}
+
+.leter-input1 {
+     width: 600px;
+     height: 55px;
+     border: none;
+     text-align:left;
+     margin-top: 24px; border-radius: 5px;
+}
+
+.leter-head {
+     font-size: 40px;
+     font-weight:
+}
+
+.leter-pera {
+     color: rgba(14, 14, 14, 0.7);
+     margin-top: 18px;
+}
+
+.leter-para2 {
+     margin-top: 24px;
+     color: rgba(14, 14, 14, 0.7);
+}
+
+/* footer is coming */
+footer {
+     background-color: #FFFFFF;
+     width: 1940px;
+     height: 250px;
+     text-align: center;
+}
+
+.foot-head {
+     font-size: 40px;
+     font-weight: bold;
+     text-align: center;
+     padding-top: 50px;
+}
+
+hr {
+     width: 1200px;
+     height: 0px;
+     margin-top: 32px;
+}
+
+.f-img {
+     width: 30px;
+     height: 30px;
+     margin-left: 23px;
+     margin-top: 32px;
+     margin-bottom: 50px;
+}
+
+
+img.yunusImg {
+     margin: -59px 2px;
+}

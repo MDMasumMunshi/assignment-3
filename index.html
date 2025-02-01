@@ -1,11 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My assignment3 </title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--  font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <!-- font awsome -->
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <!-- font awesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .sora-text {
+      font-family: "Sora", serif;
+      font-optical-sizing: auto;
+
+    }
+  </style>
+  
 </head>
-<body>
-     
+
+<body class="sora-text">
+  <header class="w-5/6 mx-auto bg-base-200 rounded-2xl">
+    <div class="navbar grid grid-cols-3 items-center pt-4 px-5 lg:px-28 mt-8 hidden lg:block ">
+      <div class="navbar-start ">
+        
+          <a href=""><img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/logo-header.png"
+                alt=""></a>
+
+        
+      </div>
+      <div class=" -pl-9 gap-4">
+        <a class=" text-xl ml-4">Product</a>
+        <a class=" text-xl">Service</a>
+        <a class=" text-xl">Contact Us</a>
+      </div>
+      <!-- navbar center -->
+      <div class=" gap-04 ">
+        <button class=" btn-circle">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class=" btn-circle">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <button class="btn bg-white border border-green-600 text-xl pl-5">Login</button><button
+          class="btn bg-green-600 text-white p-3 text-xl ml-5">Register</button>
+      </div>
+    </div>
+    <!--  -->
+    <div class="flex justify-between px-4 py-4 lg:hidden md:hidden">
+      <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/logo-footer.png" alt="">
+      <button><i class="fa-solid fa-bars w-24"></i></button>
+    </div>
+    <!-- navbar -->
+    <div class="bannar mt-8 lg:mt-28">
+      <div class="w-3/5  mx-auto">
+
+        <h1 class="text-5xl font-bold text-center mb-8">Freshness <span class="text-green-700">ou Can <br>
+            Count</span>
+          On, Prices You’ll Love!</h1>
+        <p class="text-center">
+          Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered
+          every day!
+        </p>
+      </div>
+      <div>
+        <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="" class="mx-auto">
+      </div>
+
+    </div>
+
+  </header>
+
+  <main>
+    <section class="bg-white w-5/6 mx-auto my-8 lg:my-36">
+      <h2 class="text-green-700 font-semibold text-3xl text-left mb-20 ml-40">Services</h2>
+      <div class=" w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="card bg-base-300  shadow-xl">
+          <figure class="w-36 bg-white rounded-full mx-auto my-6">
+            <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/service.png" alt=""
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl font-semibold">24/7 Services </h2>
+            <p class="text-xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt</p>
+
+          </div>
+        </div>
+        <!-- card-1 -->
+        <div class="card bg-base-300  shadow-xl">
+          <figure class="w-36 bg-white rounded-full mx-auto my-6">
+            <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/delivery.png" alt="" class=" " />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl font-semibold">Fast Delivery </h2>
+            <p class="text-xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt</p>
+
+          </div>
+        </div>
+        <!-- card-2 -->
+        <div class="card bg-base-300  shadow-xl">
+          <figure class="w-36 bg-white rounded-full mx-auto my-6">
+            <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/healthy.png" alt=""
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl font-semibold">Healthy products </h2>
+            <p class="text-xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt</p>
+
+          </div>
+        </div>
+        <!-- card-3 -->
+      </div>
+    </section>
+    <!-- hero section -->
+    <section class="w-5/6 bg-base-300 mx-auto  rounded-lg">
+      <h2 class=" text-4xl font-semibold text-green-700 pt-12 lg:pt-28 mb-12 lg:pl-40 pl-10"> Popular products</h2>
+      <div class="populer-product w-4/5 mx-auto grid lg:grid-cols-4 gap-6 pb-28">
+        <div class=" bg-gradient-to-tl from-white to-green-500 row-span-3 px-5 pt-16 rounded-lg">
+          <div>
+            <h3 class="text-3xl text-white ">30% off</h3>
+            <p class="mt-6">Discover a world of treats, toys, and essentials handpicked for </p>
+            <button class="bg-white px-6 py-3 rounded-lg mt-4">Buy Now</button>
+          </div>
+          <img src="./vegetable-offer.png" alt="" class="pl-40 w-[600] ">
+        </div>
+        <!-- populer card-1 -->
+        <div class="hero-1 flex bg-white rounded-lg px-4 py-4 gap-4 ">
+          <div class="bg-base-300 w-20">
+            <img src="./potato.webp" class=" rounded-lg shadow-2xl" />
+          </div>
+          <div>
+            <div class="flex gap-2"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <h6>4.5</h6>
+            </div>
+            <p class="text-xl font-semibold ">
+              Onion 1 kg
+            </p>
+            <h6>$39.99</h6>
+
+
+          </div>
+        </div>
+        <!-- populer card 2 -->
+        <div class="hero-1 flex bg-white rounded-lg px-4 py-4 gap-4 ">
+          <div class="bg-base-300 w-20">
+            <img src="./potato.webp" class=" rounded-lg shadow-2xl" />
+          </div>
+          <div>
+            <div class="flex gap-2"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <h6>4.5</h6>
+            </div>
+            <p class="text-xl font-semibold ">
+              Onion 1 kg
+            </p>
+            <h6>$39.99</h6>
+
+
+          </div>
+        </div>
+        <!-- popular car-3 -->
+        <div class="hero-1 flex bg-white rounded-lg px-4 py-4 gap-4 ">
+          <div class="bg-base-300 w-20">
+            <img src="./potato.webp" class=" rounded-lg shadow-2xl" />
+          </div>
+          <div>
+            <div class="flex gap-2"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <h6>4.5</h6>
+            </div>
+            <p class="text-xl font-semibold ">
+              Onion 1 kg
+            </p>
+            <h6>$39.99</h6>
+
+
+          </div>
+        </div>
+        <!-- popular card-4 -->
+        <div class="hero-1 flex bg-white rounded-lg px-4 py-4 gap-4 ">
+          <div class="bg-base-300 w-20">
+            <img src="./potato.webp" class=" rounded-lg shadow-2xl" />
+          </div>
+          <div>
+            <div class="flex gap-2"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <h6>4.5</h6>
+            </div>
+            <p class="text-xl font-semibold ">
+              Onion 1 kg
+            </p>
+            <h6>$39.99</h6>
+
+
+          </div>
+        </div>
+        <!-- popular card-5 -->
+        <div class="hero-1 flex bg-white rounded-lg px-4 py-4 gap-4 ">
+          <div class="bg-base-300 w-20">
+            <img src="./potato.webp" class=" rounded-lg shadow-2xl" />
+          </div>
+          <div>
+            <div class="flex gap-2"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <h6>4.5</h6>
+            </div>
+            <p class="text-xl font-semibold ">
+              Onion 1 kg
+            </p>
+            <h6>$39.99</h6>
+
+
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="hero-1 flex bg-white rounded-lg px-4 py-4 gap-4 ">
+          <div class="bg-base-300 w-20">
+            <img src="./potato.webp" class=" rounded-lg shadow-2xl" />
+          </div>
+          <div>
+            <div class="flex gap-2"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <h6>4.5</h6>
+            </div>
+            <p class="text-xl font-semibold ">
+              Onion 1 kg
+            </p>
+            <h6>$39.99</h6>
+
+
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="hero-1 flex bg-white rounded-lg px-4 py-4 gap-4 ">
+          <div class="bg-base-300 w-20">
+            <img src="./potato.webp" class=" rounded-lg shadow-2xl" />
+          </div>
+          <div>
+            <div class="flex gap-2"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <h6>4.5</h6>
+            </div>
+            <p class="text-xl font-semibold ">
+              Onion 1 kg
+            </p>
+            <h6>$39.99</h6>
+
+
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="hero-1 flex bg-white rounded-lg px-4 py-4 gap-4 ">
+          <div class="bg-base-300 w-20">
+            <img src="./potato.webp" class=" rounded-lg shadow-2xl" />
+          </div>
+          <div>
+            <div class="flex gap-2"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <h6>4.5</h6>
+            </div>
+            <p class="text-xl font-semibold ">
+              Onion 1 kg
+            </p>
+            <h6>$39.99</h6>
+
+
+          </div>
+        </div>
+        <!--  -->
+        <div class="hero-1 flex bg-white rounded-lg px-4 py-4 gap-4 ">
+          <div class="bg-base-300 w-20">
+            <img src="./potato.webp" class=" rounded-lg shadow-2xl" />
+          </div>
+          <div>
+            <div class="flex gap-2"> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <h6>4.5</h6>
+            </div>
+            <p class="text-xl font-semibold ">
+              Onion 1 kg
+            </p>
+            <h6>$39.99</h6>
+
+
+          </div>
+        </div>
+        <!-- 10 -->
+
+      </div>
+    </section>
+    <!-- populer-porduct -->
+    <section class="w-5/6 mx-auto my-8 lg:my-28">
+      <h2 class="text-4xl text-green-800 font-semibold mb-12 mx-12 lg:mx-40">Arrival & Offers</h2>
+      <div class=" w-4/5 mx-auto flex flex-col lg:flex-row gap-8 ">
+
+        <div class="hero bg-green-900  rounded-3xl">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/dawat-mock-up.png"
+              class=" rounded-lg shadow-2xl" />
+            <div>
+              <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/dawat-logo.png" alt="">
+
+
+              <button class="btn my-6 bg-green-400 text-white text-2xl  lg:px-10 py-2">Cook Exotic Dishes</button>
+              <h2 class="text-4xl text-white ">UP to<span class="font-bold">20% OFF</span></h2>
+            </div>
+          </div>
+        </div>
+        <!-- hero section 1 -->
+        <div class="hero bg-blue-950 rounded-3xl lg:w-3/5">
+          <div class="hero-content flex-col  p-5 items-start">
+            
+            <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/india-gate-logo.png"
+              class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+
+
+
+              <button class="btn my-6 bg-blue-400 border-none text-white text-2xl rounded-xl px-6 py-2 ">World’s No.1
+                Rice</button>
+              <h2 class="text-4xl text-white ">UP to<span class="font-bold">40% OFF</span></h2>
+            </div>
+          </div>
+        </div>
+        <!-- hero section 2 -->
+      </div>
+
+    </section>
+   
+  </main>
+   <!-- footer input -->
+   <section class="w-5/6 mx-auto mt-50 subscrib relative ">
+    <div class="hero bg-base-300 w-4/5 mx-auto rounded-2xl">
+      <div class="hero-content flex-col gap-28 py-11  lg:flex-row">
+        <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/vegetable-busket.png"
+          class=" rounded-lg shadow-2xl" />
+        <div>
+          <h1 class="text-5xl font-bold">Get Grocery News!</h1>
+          <p class="py-6">
+            Exclusive training tips, ticks, product deals and more.
+          </p>
+          <input type="email" name="email" id="" placeholder="Enter your e-mail "
+            class="lg:w-96 bg-white py-4 pl-4 rounded-xl  mb-9"> <br>
+          <button class="btn bg-green-800 text-white border-none rounded-xl">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer bg-green-600 text-white footer-area p-0 max-h-full -z-50 relative  -mt-56 ">
+   <div class="w-5/6 mx-auto">
+    <div class="w-4/5 grid grid-cols-1 mx-auto lg:grid-cols-3 gap-6  justify-between  items-center pt-64 pb-10">
+      <div class="w-80">
+        <img src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/logo-footer.png" alt="">
+        <p class="text-xl ">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+      </div>
+      <div>
+        <h6 class="footer-title">Product</h6>
+        <h6 class="">Service</h6>
+        <h6 class="mt-4">Contact Us</h6>
+
+      </div>
+      <div>
+        <h6 class="footer-title">Follow Us</h6>
+        <div class="grid grid-flow-col ">
+          <a>
+            <img src="./facebook.png" alt="">
+          </a>
+          <a>
+            <img src="./instagram.png" alt="">
+          </a>
+          <a>
+            <img src="./x.png" alt="">
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+   </div>
+
+  </footer>
+
+
 </body>
+
 </html>
